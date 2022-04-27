@@ -1,0 +1,91 @@
+/* body{
+    background-image: url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bW92aWUlMjB0aGVhdGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+#div{
+    background-image: url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bW92aWUlMjB0aGVhdGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+#div1{
+   text-align: center;
+   margin-top: 7%;
+}
+h1{
+    color: rgb(193, 201, 224);
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    
+}
+#search_movies{
+    height: 30px;
+   width: 20%;
+   background-color: blanchedalmond;
+   border: 3px solid black;
+}
+#search{
+    height: 30px;
+    width: 10%;
+    background-color: cornflowerblue;
+    border: 3px solid black;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   margin-top: 20px;
+   margin: auto;
+    width: 100%;
+    gap:10px;
+}
+.card{
+    border: 3px solid black;
+    background-color: blanchedalmond;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card2{
+    /* border: 3px solid black; */
+    background-color: blanchedalmond;
+    padding: 8px;
+    margin-left: 50%;
+}
+.pic{
+    width:100%;
+    height:350px;
+}
+.title{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.year{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.rating{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Recommended{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* input {
+    width: 200px;
+}
+ #movies {
+
+      height: 200px;
+      width: 206px;
+      border: solid 1px black;
+      overflow: scroll;
+      margin-left: 37%;
+
+    }
+
+   */

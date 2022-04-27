@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="movies.css" />
+    <title>Document</title>
+  </head>
+  <body>
+      <div id="div">
+        <h1>Unlimited Movies</h1>
+        <div id="div1">
+        <input type='text' oninput="debounce(main,1000)" id="search_movies" placeholder="search movies" >
+        <input type='button' id='search' value='Search' >
+        <div id="movies"></div>
+        <!-- <input oninput="debounce(main,1000)" type="text" id="query"> -->
+    </div>
+      </div>
+     
+      <div id="container"></div>
+  </body>
+</html>
+<script src="movies.js"></script>
