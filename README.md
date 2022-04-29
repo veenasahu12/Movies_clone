@@ -12,4 +12,4 @@ This is a Movie website where you can search your favourite movies and trending 
 <img src="https://cdn-images-1.medium.com/max/880/1*dpWaZSgH3gXrj785ceHFEQ.png" />
 
 ### Netlify Link : -
-https://food-app-burger.netlify.app/
+https://movie-reviewer-app-new.netlify.app/
